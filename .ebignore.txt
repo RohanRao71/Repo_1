@@ -1,0 +1,10 @@
+ntuser.dat
+*.dat
+.DS_Store
+.git
+.elasticbeanstalk
+__pycache__
+*.pyc
+*.pyo
+*.log
+*.tmp

@@ -1,0 +1,9 @@
+Resources:
+  AWSEBAutoScalingLaunchTemplate:
+    Type: AWS::AutoScaling::LaunchTemplate
+    Properties:
+      LaunchTemplateName: !Sub "awseb-${AWS::StackName}-lt"
+      LaunchTemplateData:
+        InstanceType: t2.micro
+        ImageId: !Ref AWSEBAutoScalingImageId
+
